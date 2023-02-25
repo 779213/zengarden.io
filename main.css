@@ -2,7 +2,7 @@ body {
     color: black;
     font-family: 'Lora', serif;
     background-color: white;
-    background-image: url("/image/image colors.png");
+    background-image: url("image/pexels-pixabay-207153.jpg ");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,22 +10,21 @@ body {
 }
 
 
-
-
 p {
     overflow-wrap: anywhere;
     font-style: italic;
-    color: black;
+    color: aqua;
     font-family: "Comic Sans MS";
 }
 
 header {
-   background-image: url("/image/fiori.png"),linear-gradient(#F22ED6,#B39187,#401F3E);
+   background-image: url("image/pexels-scott-webb-137594.jpg");
     background-color: white;
     background-attachment: scroll;
 background-size: auto;
-    background-position-x: -100px;
-
+   position: relative;
+    top: 30px;
+    right: -50px;
 
 
     margin: 50px;
@@ -37,6 +36,7 @@ background-size: auto;
 border-image-repeat: space;
 
 }
+
 
 
 
