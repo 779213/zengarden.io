@@ -3,15 +3,20 @@
 h1 {
     font-size: 24px;
     color: red;
+    /*ombra del testo*/
+    text-shadow: 3px 3px 1px black;
+
 
 }
 /*<hex-value> values*/
 h2 {
       color: blue;
+    text-shadow: 3px 3px 1px black;
 }
 
 h3{
     color: #F55326;
+    text-shadow: 3px 3px 1px black;
 }
 
 

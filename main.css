@@ -2,34 +2,45 @@ body {
     color: black;
     font-family: 'Lora', serif;
     background-color: white;
-    background-image: url("image/pexels-pixabay-207153.jpg ");
+    background-image: url("image/acqua.jpg ");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
+
+}
+a:link{
+    color: pink;
+}
+/*toglie la sottolineatura*/
+a:hover{
+    text-decoration: none;
+}
+/*colora in verde i link già cliccati*/
+a:visited{
+    color: red;
 }
 
 
 
-
-p {
+p{
     overflow-wrap: anywhere;
-    font-style: italic;
-    color: aqua;
+    color: black;
     font-family: "Comic Sans MS";
 }
 
 header {
-   background-image: url("image/pexels-scott-webb-137594.jpg");
+   background-image: url("image/astratto1.jpg");
     background-color: white;
     background-attachment: scroll;
 background-size: auto;
    position: relative;
-    top: 30px;
+    top: -30px;
     right: -50px;
+    display: block;
+    margin: 0 auto;
 
 
-    margin: 50px;
     border: dotted 5px red;
     border-radius: 50%;
     padding: 100px;
@@ -38,7 +49,3 @@ background-size: auto;
 border-image-repeat: space;
 
 }
-
-
-
-
