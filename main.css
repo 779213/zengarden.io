@@ -7,45 +7,72 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    /*spazio di scrittura*/
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 53em
+
 
 }
-a:link{
-    color: pink;
+
+a:link {
+    color: green;
 }
+
 /*toglie la sottolineatura*/
-a:hover{
+a:hover {
     text-decoration: none;
 }
+
 /*colora in verde i link già cliccati*/
-a:visited{
+a:visited {
     color: red;
 }
 
 
-
-p{
+p {
     overflow-wrap: anywhere;
     color: black;
     font-family: "Comic Sans MS";
 }
 
 header {
-   background-image: url("image/astratto1.jpg");
+    background-image: url("image/astratto1.jpg");
     background-color: white;
     background-attachment: scroll;
-background-size: auto;
-   position: relative;
+    background-size: auto;
+    position: relative;
     top: -30px;
-    right: -50px;
+    right: -10px;
     display: block;
     margin: 0 auto;
 
-
-    border: dotted 5px red;
+    border: dotted 5px pink;
     border-radius: 50%;
     padding: 100px;
     width: 500px;
     height: 500px;
-border-image-repeat: space;
+    border-image-repeat: space;
+}
 
+div.benefits{
+    border: dotted 0 ;
+    padding: 70px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -20px;
+    right: -50px;
+    background-color: green;
+}
+
+div.requirements{
+    border: dotted 0;
+    padding:50px;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    top: -100px;
+    right: -500px;
+    background-color: blueviolet;
 }
