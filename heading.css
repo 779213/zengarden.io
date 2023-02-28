@@ -1,22 +1,33 @@
-
-
 h1 {
-    font-size: 24px;
+    font-family: "Californian FB";
+    font-weight: bold;
+    font-size: 40px;
     color: red;
     /*ombra del testo*/
     text-shadow: 3px 3px 1px black;
+    position: relative;
+    right: -250px;
 
 
 }
 /*<hex-value> values*/
 h2 {
-      color: blue;
-    text-shadow: 3px 3px 1px black;
+    font-size: 25px;
+      color: brown;
+    font-family: "Franklin Gothic Book";
+    font-style: italic;
+    position: relative;
+    right: -250px;
+    font-weight: bold;
 }
 
 h3{
-    color: #F55326;
+    color: aqua;
     text-shadow: 3px 3px 1px black;
+    font-style: oblique;
+    font-size: 25px;
+    position: relative;
+    right: -200px;
 }
 
 
