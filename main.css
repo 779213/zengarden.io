@@ -38,11 +38,63 @@ p::first-letter{
 
 }
 
+header{
+    background: crimson;
+}
 
-div.page-wrapper{
-    background: chocolate;
+.summary{
+    background: #eeeeee;
+    font-weight: bold;
+}
+
+.preamble{
+    background: blueviolet;
+    font-weight: bold;
     position: relative;
-    padding: 20px;
+    right: 200px;
 
+}
+.explanation{
+    background: chartreuse;
+    font-weight: bold;
+    position: relative;
+    right: -200px;
+}
 
+.participation{
+    background: chocolate;
+    font-weight: bold;
+    position: relative;
+    right: 200px;
+}
+.benefits{
+    background: coral;
+    position: relative;
+    right: -200px;
+    font-weight: bold;
+}
+.requirements{
+    background: darkred;
+    font-weight: bold;
+    position: relative;
+    right: 200px;
+}
+footer{
+    background: white;
+    position: relative;
+    right: -200px;
+}
+.design-selection{
+    background: yellowgreen;
+    font-weight: bold;
+    position: relative;
+    right: 200px;
+}
+.design-archives{
+    background: fuchsia;
+    font-weight: bold;
+}
+.zen-resources{
+    background: gold;
+    font-weight: bold;
 }
