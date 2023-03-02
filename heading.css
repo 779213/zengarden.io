@@ -1,6 +1,5 @@
 h1 {
-    font-family: "ui-sans-serif";
-    font-weight: bold;
+    font-family: "Arial Black", times,serif;
     font-size: 40px;
     color: black;
     /*ombra del testo*/
@@ -14,7 +13,7 @@ h1 {
 h2 {
     font-size: 25px;
       color: darkblue;
-    font-family: "serif";
+    font-family: "Berlin Sans FB",times,serif;
     font-style: italic;
     position: relative;
     right: -250px;
@@ -35,6 +34,15 @@ div.preamble > h3{
     font-size: 25px;
     text-shadow: 3px 3px 1px white;
 
+}
+header{
+    background: crimson;
+}
+
+header h1{
+    position: relative;
+    top: 10px;
+    right: -10px;
 }
 
 

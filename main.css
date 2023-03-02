@@ -8,7 +8,7 @@ body {
     /*spazio di scrittura*/
     padding: 1em;
     margin: 0 auto;
-    max-width: 53em
+    max-width: 50em
 }
 
 a:link {
@@ -27,20 +27,18 @@ a:visited {
 }
 
 p {
-    overflow-wrap: anywhere;
     color: black;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", times, serif;
 
 }
 p::first-letter{
     font-size: 30px;
-    font-family: "Franklin Gothic Book";
+    font-family: "Franklin Gothic Book",times,serif;
 
 }
 
-header{
-    background: crimson;
-}
+
+
 
 .summary{
     background: #eeeeee;
